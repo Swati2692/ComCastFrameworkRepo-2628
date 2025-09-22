@@ -14,9 +14,29 @@ public class Homepage {
 		
 	}
 	
+<<<<<<< HEAD
 	@FindBy(linkText="Project")
 	private WebElement Project;
 	
+=======
+	//code
+	public WebElement getProjectedit() {
+		return projectedit;
+	}
+
+	public void setProjectedit(WebElement projectedit) {
+		this.projectedit = projectedit;
+	}
+
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+
+	@FindBy(linkText="project")
+	private WebElement projectedit;
+
+>>>>>>> branch 'main' of https://github.com/Swati2692/ComCastFrameworkRepo-2628.git
 	@FindBy(linkText="Organizations")
 	private WebElement orgedit;
 	
