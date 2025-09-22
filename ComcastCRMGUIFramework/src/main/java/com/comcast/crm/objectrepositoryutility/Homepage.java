@@ -13,6 +13,10 @@ public class Homepage {
 		PageFactory.initElements(driver, this);
 		
 	}
+	
+	@FindBy(linkText="Project")
+	private WebElement Project;
+	
 	@FindBy(linkText="Organizations")
 	private WebElement orgedit;
 	
