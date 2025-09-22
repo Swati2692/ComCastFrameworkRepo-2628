@@ -13,6 +13,24 @@ public class Homepage {
 		PageFactory.initElements(driver, this);
 		
 	}
+	
+
+	public WebElement getProjectedit() {
+		return projectedit;
+	}
+
+	public void setProjectedit(WebElement projectedit) {
+		this.projectedit = projectedit;
+	}
+
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+
+	@FindBy(linkText="project")
+	private WebElement projectedit;
+
 	@FindBy(linkText="Organizations")
 	private WebElement orgedit;
 	
