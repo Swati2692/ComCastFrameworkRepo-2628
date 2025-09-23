@@ -14,12 +14,15 @@ public class Homepage {
 		
 	}
 	
-<<<<<<< HEAD
+
 	@FindBy(linkText="Project")
 	private WebElement Project;
 	
-=======
-	//code
+
+	//code1
+	//code2
+	//code3
+	
 	public WebElement getProjectedit() {
 		return projectedit;
 	}
