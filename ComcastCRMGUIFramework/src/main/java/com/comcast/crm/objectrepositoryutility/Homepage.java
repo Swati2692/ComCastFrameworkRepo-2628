@@ -17,6 +17,9 @@ public class Homepage {
 
 	public WebElement getProjectedit() {
 		return projectedit;
+		
+		//code1
+		//code2
 	}
 	//code
 	public void setProjectedit(WebElement projectedit) {
