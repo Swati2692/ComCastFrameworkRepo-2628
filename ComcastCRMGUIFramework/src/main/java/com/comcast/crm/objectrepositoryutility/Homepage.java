@@ -23,6 +23,7 @@ public class Homepage {
 	//code2
 	//code3
 	//code4
+	//code5
 	public WebElement getProjectedit() {
 		return projectedit;
 	}
@@ -39,7 +40,9 @@ public class Homepage {
 	@FindBy(linkText="project")
 	private WebElement projectedit;
 
->>>>>>> branch 'main' of https://github.com/Swati2692/ComCastFrameworkRepo-2628.git
+
+  //github.com/Swati2692/ComCastFrameworkRepo-2628.git
+	
 	@FindBy(linkText="Organizations")
 	private WebElement orgedit;
 	
