@@ -21,7 +21,8 @@ public class Homepage {
 		//code1
 		//code2
 	}
-	//code
+	//code4
+	//code7
 	public void setProjectedit(WebElement projectedit) {
 		this.projectedit = projectedit;
 	}
